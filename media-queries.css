@@ -127,5 +127,13 @@
     footer {
         margin-top: 15em;
     }
-
+    footer p{
+     float: left;
+    }
+    #social-media-links{
+        float: right;
+    }
+    #social-media-links img{
+        padding: 10px;
+    }
 }
