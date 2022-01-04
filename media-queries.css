@@ -107,17 +107,19 @@
     }
 
     .main, .sub-section {
-        float: inherit;
-        width: 50%;
+
         margin: 1em auto;
     }
 
     .main {
         float: left;
+        width: 68%;
+
     }
 
     .sub-section {
         float: right;
+        width: 30%;
     }
 
     h2, p {
@@ -127,13 +129,19 @@
     footer {
         margin-top: 15em;
     }
-    footer p{
-     float: left;
-    }
-    #social-media-links{
-        float: right;
-    }
-    #social-media-links img{
-        padding: 10px;
-    }
+
+}
+/*placed outside to be considered in all formats*/
+footer p{
+    float: left;
+    width: 53%;
+}
+#social-media-links{
+    float: right;
+    width: 47%;
+    text-align: right;
+
+}
+#social-media-links img{
+    padding: 10px;
 }
