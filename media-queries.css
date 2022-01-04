@@ -44,7 +44,7 @@
         text-align: center;
     }
     #desktop_Picture{        /*added "desktop" and "mobile" picture. these do and make zero difference. just want to */
-        display: none;      /*showcase the ability to have multiple pictures and only let them appear at specific sizes*/
+        display: none;      /*showcase the ability to have multiple pictures and only let them appear at specific sizes ~DZ */
     }
     .main, .sub-section {
         margin: 0.5em auto;
@@ -109,7 +109,8 @@
         text-align: center;
     }
     #mobile_Picture{         /*added "desktop" and "mobile" picture. these do and make zero difference. just want to */
-        display: none;      /*showcase the ability to have multiple pictures and only let them appear at specific sizes*/    }
+        display: none;      /*showcase the ability to have multiple pictures and only let them appear at specific sizes ~DZ */
+    }
     .main, .sub-section {
 
         margin: 1em auto;
